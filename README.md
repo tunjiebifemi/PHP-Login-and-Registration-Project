@@ -7,5 +7,5 @@ A web application that focusses on user registration, user login, session manage
 * Open the project, go to the register page, and then register a new user. The registered user will be logged in automatically after a successful registration.
 * You can also log the the user out if You want to
 
-#Author
+# Author
 Tunji Ebifemi

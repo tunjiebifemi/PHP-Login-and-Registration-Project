@@ -1,5 +1,6 @@
 <?php 
 
+//Redirection Function
 function Redirect_to($New_Location){
   header("Location:".$New_Location);
   exit;
@@ -54,6 +55,7 @@ function Login_Attempt($Username){
   }
 }
 
+// Confirm if a user is logged in
 function Confirm_Login(){
 if (isset($_SESSION["UserId"])) {
   return true;
